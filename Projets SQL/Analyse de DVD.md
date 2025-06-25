@@ -22,7 +22,8 @@ SELECT
 FROM inventory;
 ```
 
-![Image 2](https://github.com/user-attachments/assets/7432fd05-d3f4-4af2-a7d6-ed1a119261c2)
+<img src="https://github.com/user-attachments/assets/7432fd05-d3f4-4af2-a7d6-ed1a119261c2" alt="Image 2" width="500">
+
 
 
 
