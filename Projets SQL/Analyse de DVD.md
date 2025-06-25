@@ -13,8 +13,7 @@ SELECT
   COUNT(inventory_id)
 FROM rental;
 ```
-<img src="https://github.com/user-attachments/assets/5d558027-0310-4bd0-8819-e94471f6afec)" alt="Image" width="150">
-
+<img src="https://github.com/user-attachments/assets/bfe4bb22-bb73-4442-831a-952999f906e8" alt="Image" width="150">
 
 ```sql
 SELECT 
