@@ -55,7 +55,7 @@ JOIN film f ON i.film_id = f.film_id
 GROUP BY f.title
 ORDER BY f.title;
 ```
-<img src="https://github.com/user-attachments/assets/57e19126-95e4-4bab-9f6f-e098d3c2ce11" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/57e19126-95e4-4bab-9f6f-e098d3c2ce11" alt="Image" width="350">
 
 Il y a plusieurs fois le même film de disponible. Par exemple, le film **"ACADEMY DINOSAUR"** est disponible 8 fois dans l'inventaire c'est sûrement pour ça qu'un de ses exemplaires n'a jamais été loué.
 
@@ -74,7 +74,7 @@ GROUP BY inventory_records_count
 ORDER BY inventory_records_count;
 ```
 
-<img src="https://github.com/user-attachments/assets/ff6d9757-d802-405d-8f0b-78890df5bf0b" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/ff6d9757-d802-405d-8f0b-78890df5bf0b" alt="Image" width="350">
 
 En effet, tous les films sont disponibles entre 2 et 8 fois.
 
@@ -100,7 +100,7 @@ GROUP BY f.title
 ORDER BY nombre_locations DESC;
 ```
 
-<img src="https://github.com/user-attachments/assets/b7684e95-ea55-4b44-9cf7-814378284a1f" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/b7684e95-ea55-4b44-9cf7-814378284a1f" alt="Image" width="350">
 
 Le film le plus loué est **"BUCKET BROTHERHOOD"**.
 
@@ -119,7 +119,7 @@ GROUP BY c.name
 ORDER BY nombre_locations DESC;
 ```
 
-<img src="https://github.com/user-attachments/assets/248c8319-54a5-4475-aa1f-be1ba3018686" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/248c8319-54a5-4475-aa1f-be1ba3018686" alt="Image" width="350">
 
 La catégorie préférée est **Sports**, suivie de **Animation**.
 
@@ -135,7 +135,7 @@ ORDER BY total_locations DESC
 LIMIT 5;
 ```
 
-<img src="https://github.com/user-attachments/assets/bb24092b-37e8-4c69-bdd6-369672fbd99a" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/bb24092b-37e8-4c69-bdd6-369672fbd99a" alt="Image" width="350">
 
 C'est le client **128** qui a loué le plus de films (**46**).
 
@@ -174,7 +174,7 @@ WHERE rang = 1
 ORDER BY categorie;
 ```
 
-<img src="https://github.com/user-attachments/assets/348bb435-75c5-4603-affc-75d9c026867c" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/348bb435-75c5-4603-affc-75d9c026867c" alt="Image" width="350">
 
 On peut voir, par exemple, que pour la catégorie **Action**, ce sont les clients **323** et **506** qui ont loué le plus de films de ce genre avec **7 chacun**.
 
@@ -193,7 +193,7 @@ GROUP BY c.name
 ORDER BY nb_locations DESC;
 ```
 
-<img src="https://github.com/user-attachments/assets/22d7c04e-301c-4804-bd3c-f857efa37490" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/22d7c04e-301c-4804-bd3c-f857efa37490" alt="Image" width="350">
 
 On peut voir que le client qui emprunte le plus préfère les films de **Musique**, **Sport** et **Animation**.
 ## 9. Quels sont les 5 derniers films qu'il a emprunté et de quel catégorie il s'agit ? 
@@ -214,7 +214,7 @@ ORDER BY r.rental_date DESC
 LIMIT 5;
 ```
 
-<img src="https://github.com/user-attachments/assets/6de01e2e-7ced-441c-b4b2-e1f39d6c808b" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/6de01e2e-7ced-441c-b4b2-e1f39d6c808b" alt="Image" width="450">
 
 Dans ce tableau, on peut voir que le dernier film qu'il a emprunté est un film d’**Animation** nommé **"Falcon Volume"**, le **23 août 2005**.
 
@@ -233,6 +233,6 @@ GROUP BY nom_acteur
 ORDER BY nb_films_loues DESC;
 ```
 
-<img src="https://github.com/user-attachments/assets/b563e7cc-7b55-4bbb-8cc8-e17c8d5a46ca)" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/b563e7cc-7b55-4bbb-8cc8-e17c8d5a46ca" alt="Image" width="250">
 
 **Susan Davis** est l'actrice présente dans le plus grand nombre de films loués (**53**).
