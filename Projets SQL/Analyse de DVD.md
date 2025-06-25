@@ -13,7 +13,8 @@ SELECT
   COUNT(inventory_id)
 FROM rental;
 ```
-<img src="Images_DVD/Image1.png" alt="Mon image" width="500">
+
+
 
 ```sql
 SELECT 
@@ -21,7 +22,8 @@ SELECT
 FROM inventory;
 ```
 
-![[Image 2.png|150]]
+![Image 2](https://github.com/user-attachments/assets/7432fd05-d3f4-4af2-a7d6-ed1a119261c2)
+
 
 
 Il semble qu'il y ait 4 580 films louable et 4 581 films disponibles dans l'inventaire.
