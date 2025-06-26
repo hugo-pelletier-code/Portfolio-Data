@@ -263,7 +263,7 @@ Les 3 secteurs comptant les plus anciennes entreprises en Asie sont :
 - **"Construction"** (Japon)
 - **"Cafés, Restaurants & Bars"** (Chine)
 - **"Tourism & Hotels"** (Turquie)
-- 
+
 Le secteur le plus récent est **"Media"**, avec une entreprise fondée en **1931 en Mongolie**.
 
 ## 13. Combien d’entreprises ont été créées par siècle ?
