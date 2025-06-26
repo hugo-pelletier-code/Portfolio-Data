@@ -37,7 +37,7 @@ Le jeu de données contient **163 entreprises** différentes.
 SELECT MIN(year_founded), MAX(year_founded)
 FROM businesses;
 ```
-<img src="https://github.com/user-attachments/assets/32db7551-7d1e-4080-809f-a49ef713ab61" alt="Image" width="150">
+<img src="https://github.com/user-attachments/assets/32db7551-7d1e-4080-809f-a49ef713ab61" alt="Image" width="250">
 
 L’entreprise la plus ancienne date de **578** et la plus récente de **1999**.
 
