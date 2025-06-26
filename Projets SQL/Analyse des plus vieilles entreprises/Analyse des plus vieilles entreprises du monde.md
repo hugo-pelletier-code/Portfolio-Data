@@ -199,7 +199,7 @@ FROM countries c
 LEFT JOIN businesses b ON c.country_code = b.country_code
 WHERE b.business IS NULL;
 ```
-<img src="https://github.com/user-attachments/assets/8480cab0-63e5-434b-ae7d-a37c927d3f10" alt="Image" width="150">
+<img src="https://github.com/user-attachments/assets/8480cab0-63e5-434b-ae7d-a37c927d3f10" alt="Image" width="350">
 
 ```sql
 SELECT 
@@ -276,7 +276,7 @@ FROM businesses
 GROUP BY century
 ORDER BY century
 ```
-<img src="https://github.com/user-attachments/assets/ca3c8dc4-a3af-41a5-9333-d633ba185751" alt="Image" width="150">
+<img src="https://github.com/user-attachments/assets/ca3c8dc4-a3af-41a5-9333-d633ba185751" alt="Image" width="350">
 
 ```sql
 SELECT 
@@ -286,7 +286,7 @@ FROM businesses
 GROUP BY century
 ORDER BY n DESC;
 ```
-<img src="https://github.com/user-attachments/assets/9b0099c5-e5b3-4679-a3e7-b6936e3cb4e7" alt="Image" width="150">
+<img src="https://github.com/user-attachments/assets/9b0099c5-e5b3-4679-a3e7-b6936e3cb4e7" alt="Image" width="350">
 
 Avant **1300**, seules **18 entreprises** encore en activité aujourd’hui avaient été fondées.  Les **XIXe et XXe siècles** ont connu un essor avec **52 et 67 entreprises** respectivement.
 ## 14. Quelle est l’évolution du nombre de catégories par siècle ?
@@ -299,7 +299,7 @@ FROM businesses
 GROUP BY century
 ORDER BY century;
 ```
-<img src="https://github.com/user-attachments/assets/6c0c0c5d-d5ef-4c68-b231-83f1e77c992a" alt="Image" width="150">
+<img src="https://github.com/user-attachments/assets/6c0c0c5d-d5ef-4c68-b231-83f1e77c992a" alt="Image" width="350">
 
 Avant le **XVIe siècle**, on ne comptait jamais plus de **5 catégories** différentes d'entreprises créées par siècle.  
 Ce nombre grimpe à **14** au **XXe siècle** et **13** au **XIXe**, illustrant une diversification progressive des secteurs d’activité.
