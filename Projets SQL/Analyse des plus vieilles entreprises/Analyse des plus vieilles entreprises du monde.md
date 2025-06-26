@@ -190,7 +190,7 @@ ORDER BY continent;
 - En **Amérique du Sud** : "Banking & Finance" (3)
 - En **Amérique du Nord** : "Distillers, Vintners, & Breweries" (5)
 - En **Asie** : "Aviation & Transport" (7)
-- 
+  
 ## 10. Y a-t-il des pays pour lesquels aucune entreprise ancienne n’a été recensée ?
 
 ```sql
