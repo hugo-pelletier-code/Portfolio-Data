@@ -35,7 +35,7 @@ SELECT
 	COUNT(DISTINCT product_line) AS nb_lignes_produits 
 FROM sales;
 ```
-<img src="https://github.com/user-attachments/assets/36d56cbe-5856-4476-b264-ad2bffc988e8" alt="Image" width="150">
+<img src="https://github.com/user-attachments/assets/36d56cbe-5856-4476-b264-ad2bffc988e8" alt="Image" width="220">
 
 Il y a 6 gammes de produits différentes.
 
