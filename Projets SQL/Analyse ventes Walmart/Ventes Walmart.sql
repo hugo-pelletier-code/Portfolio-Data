@@ -16,8 +16,6 @@ SELECT
 	COUNT(DISTINCT product_line) AS nb_lignes_produits 
 FROM sales;
 
--- peut etre afficher les gammes de produits 
-
 -- 4. Méthode de paiement la plus fréquente
 SELECT 
 	payment, 
