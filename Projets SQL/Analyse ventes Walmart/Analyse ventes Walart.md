@@ -106,7 +106,7 @@ FROM sales
 GROUP BY product_line
 ORDER BY revenu DESC;
 ```
-<img src="https://github.com/user-attachments/assets/4efb7c40-8c1b-42a8-b3dd-fba32310a0fb" alt="Image" width="350">
+<img src="https://github.com/user-attachments/assets/4efb7c40-8c1b-42a8-b3dd-fba32310a0fb" alt="Image" width="280">
 
 **Food and beverages** est la plus rentable (56 145 $), suivie par **Sports and travel** (55 123 $).
 
@@ -136,7 +136,7 @@ GROUP BY product_line
 ORDER BY tva_moyenne DESC
 LIMIT 1;
 ```
-<img src="https://github.com/user-attachments/assets/5aba7540-e032-4768-a902-4f15af0fec8d" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/5aba7540-e032-4768-a902-4f15af0fec8d" alt="Image" width="300">
 
 La TVA moyenne la plus élevée revient à **Home and lifestyle**, avec 16 $.
 
