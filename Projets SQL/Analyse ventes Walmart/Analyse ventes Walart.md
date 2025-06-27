@@ -35,7 +35,7 @@ SELECT
 	COUNT(DISTINCT product_line) AS nb_lignes_produits 
 FROM sales;
 ```
-<img src="https://github.com/user-attachments/assets/36d56cbe-5856-4476-b264-ad2bffc988e8" alt="Image" width="250">
+<img src="https://github.com/user-attachments/assets/36d56cbe-5856-4476-b264-ad2bffc988e8" alt="Image" width="150">
 
 Il y a 6 gammes de produits différentes.
 
@@ -64,7 +64,7 @@ GROUP BY product_line
 ORDER BY nb_ventes DESC
 LIMIT 1;
 ```
-<img src="https://github.com/user-attachments/assets/d96e52ab-a5a2-4550-b6f1-03eb5ec1ecb1" alt="Image" width="350">
+<img src="https://github.com/user-attachments/assets/d96e52ab-a5a2-4550-b6f1-03eb5ec1ecb1" alt="Image" width="250">
 
 La catégorie **Fashion accessories** arrive en tête avec 178 ventes.
 
