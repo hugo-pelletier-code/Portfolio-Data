@@ -1,5 +1,6 @@
 -- Nombre de film louable
-SELECT COUNT(DISTINCT inventory_id)
+SELECT 
+  COUNT(DISTINCT inventory_id)
 FROM rental;
 
 -- Nombre de film disponible dans l'inventaire
@@ -8,7 +9,8 @@ SELECT
 FROM inventory;
 
 -- Existe t'il un film qui n'a jamais été loué ? 
-SELECT DISTINCT f.title AS nom_film
+SELECT 
+  DISTINCT f.title AS nom_film
 FROM inventory AS i
 JOIN film AS f ON i.film_id = f.film_id
 WHERE NOT EXISTS (
