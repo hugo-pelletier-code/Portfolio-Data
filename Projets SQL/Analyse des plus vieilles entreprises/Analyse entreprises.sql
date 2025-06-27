@@ -1,13 +1,17 @@
 --Nombre d'entreprise
-SELECT Count(business)
+SELECT 
+    COUNT(business)
 FROM businesses
 
 -- Plus vieux et plus récent business
-SELECT MIN(year_founded), MAX(year_founded)
+SELECT 
+    MIN(year_founded), 
+    MAX(year_founded)
 FROM businesses;
 
 -- Nombre de business ayant été créer avant l'an 1000
-SELECT COUNT(business)
+SELECT 
+    COUNT(business)
 FROM businesses
 WHERE year_founded < 1000;
 
@@ -18,7 +22,11 @@ WHERE year_founded < 1000
 ORDER BY year_founded;
 
 -- Catégorie de ses entreprises ? 
-SELECT business, year_founded, b.country_code, category
+SELECT 
+    business, 
+    year_founded, 
+    b.country_code, 
+    category
 FROM businesses AS b
 INNER JOIN categories AS c
 ON b.category_code = c.category_code
@@ -26,7 +34,9 @@ WHERE year_founded <1000
 ORDER BY year_founded;
 
 -- Nombre d'entreprise de même catégorie
-SELECT c.category, COUNT (c.category) AS n
+SELECT 
+    c.category, 
+    COUNT (c.category) AS n
 FROM businesses AS b
 INNER JOIN categories AS c
     ON b.category_code = c.category_code
@@ -56,7 +66,10 @@ ORDER BY avg_age
 LIMIT 3;
  
 -- Plus vieille entreprise par continent (avec nom)
-SELECT b.business, b.year_founded, c2.continent
+SELECT 
+    b.business, 
+    b.year_founded, 
+    c2.continent
 FROM businesses AS b
 INNER JOIN countries AS c2 ON b.country_code = c2.country_code
 WHERE (c2.continent, b.year_founded) IN (
@@ -69,7 +82,10 @@ ORDER BY c2.continent;
 
 -- Répartition des catégorie en Europe
 
-SELECT c2.continent, c1.category, COUNT(*) AS n
+SELECT 
+    c2.continent, 
+    c1.category, 
+    COUNT(*) AS n
 FROM businesses AS b
 INNER JOIN categories AS c1
     ON b.category_code = c1.category_code
@@ -97,7 +113,8 @@ WHERE rn = 1
 ORDER BY continent;
 
 -- Pays qui n’ont aucune entreprise enregistrée
-SELECT c.country
+SELECT 
+    c.country
 FROM countries c
 LEFT JOIN businesses b ON c.country_code = b.country_code
 WHERE b.business IS NULL;
