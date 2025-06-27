@@ -198,7 +198,7 @@ FROM sales
 GROUP BY day_name, time_of_day
 ORDER BY nb_ventes DESC;
 ```
-<img src="https://github.com/user-attachments/assets/f81465b6-ef03-49f1-b2a4-33ef54a49651)" alt="Image" width="350">
+<img src="https://github.com/user-attachments/assets/f81465b6-ef03-49f1-b2a4-33ef54a49651" alt="Image" width="350">
 
 Les pics de ventes ont lieu le **samedi soir**, **mardi soir** et **mercredi après-midi**.
 
