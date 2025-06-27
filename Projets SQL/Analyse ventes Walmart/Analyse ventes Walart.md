@@ -184,7 +184,7 @@ FROM sales
 GROUP BY product_line
 ORDER BY note_moyenne DESC;
 ```
-<img src="https://github.com/user-attachments/assets/1b9cdd6c-e4ab-4e72-b77d-13f96be77630" alt="Image" width="350">
+<img src="https://github.com/user-attachments/assets/1b9cdd6c-e4ab-4e72-b77d-13f96be77630" alt="Image" width="280">
 
 **Food and beverages** obtient la meilleure note (7,11). La plus faible revient à **Home and lifestyle** (6,84).
 
