@@ -2,10 +2,11 @@
 
 ## Objectif
 
-Ce document présente une série d’analyses SQL réalisées à partir d’une base de données de locations de DVD.  
+Ce document présente une série d’analyses réalisées à partir d’une base de données de locations de DVD.  
 L’objectif est de répondre à différentes questions métiers à l’aide de requêtes SQL : nombre de films disponibles et loués, identification des films les plus populaires, catégories préférées des clients, comportements de location des meilleurs clients, ainsi que l’influence des acteurs.
 
-Chaque section est illustrée avec des extraits SQL et des observations claires, permettant une meilleure compréhension des données et un appui à la prise de décision marketing.
+Chaque section est illustrée avec des observations claires, permettant une meilleure compréhension des données et un appui à la prise de décision marketing.
+
 ## 1. Combien de films sont disponibles à la location et dans l'inventaire ?
 
 ```sql
